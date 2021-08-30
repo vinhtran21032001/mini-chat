@@ -287,6 +287,9 @@
     .login-room {
         width: 80%;
     }
+    .member {
+        display: none;
+    }
      .message-main {
          flex-direction: column-reverse;
      }  
@@ -304,5 +307,20 @@
      .chat-block {
          width: 100%;
      }
+}
+@media screen and (max-width : 600px) {
+    .send-content i {
+        width: 0 ;
+        height: 0;
+        display: none;
+    }
+    .inputmsg {
+        flex: 1;
+    }
+    .sendchat {
+        flex-shrink:  0;
+    }
+   
+
 }
 
